@@ -1,0 +1,24 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/dunguyen-agilityio/rn-api#readme",
+    "bugs": {
+        "url": "https://github.com/dunguyen-agilityio/rn-api/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dunguyen-agilityio/rn-api.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "server": "json-server data/db.json"
+    },
+    "dependencies": {
+        "json-server": "^1.0.0-beta.3"
+    },
+    "devDependencies": {}
+}

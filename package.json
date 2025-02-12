@@ -15,7 +15,7 @@
     "type": "commonjs",
     "main": "index.js",
     "scripts": {
-        "start": "json-server data/db.json"
+        "start": "node server.js"
     },
     "dependencies": {
         "json-server": "^0.17.4"

@@ -359,5 +359,5 @@
             "fat": 100
         }
     ],
-    "favorites": [{ "id": "1", "foodId": "1" }]
+    "favorites": []
 }

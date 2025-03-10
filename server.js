@@ -1,6 +1,6 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router("data/db.json"); // Change this to your data file
+const router = jsonServer.router("data/db-large.json"); // Change this to your data file
 const middlewares = jsonServer.defaults();
 
 const PORT = process.env.PORT || 8080;
